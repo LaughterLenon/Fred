@@ -3,7 +3,11 @@
 --- !u!78 &1
 TagManager:
   serializedVersion: 2
-  tags: []
+  tags:
+  - Enemy
+  - Cactuse
+  - Stones
+  - Jug
   layers:
   - Default
   - TransparentFX
@@ -13,9 +17,9 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
-  - 
+  - BlockingLayer
+  - Player
+  - Enemy
   - 
   - 
   - 
@@ -40,4 +44,13 @@ TagManager:
   m_SortingLayers:
   - name: Default
     uniqueID: 0
+    locked: 0
+  - name: Ground
+    uniqueID: 4082983789
+    locked: 0
+  - name: Jug
+    uniqueID: 2203552613
+    locked: 0
+  - name: Characters
+    uniqueID: 1169517519
     locked: 0
